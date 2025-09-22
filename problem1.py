@@ -16,6 +16,7 @@ download_uris = [
 DOWNLOAD_DIR = "downloads"
 
 def main () -> None:
+    # That's not complete. You will get a 0.
     response = requests.get("https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2018_Q4.zip")
     print(response.content)
     pass
