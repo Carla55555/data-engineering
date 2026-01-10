@@ -1,0 +1,16 @@
+2025-12-29 11:59:04,787 | INFO | Logging initialized for transform step
+2025-12-29 11:59:04,787 | INFO | Starting transform step (clean + aggregate)...
+2025-12-29 11:59:04,803 | INFO | Loaded music raw: (1000, 28), survey raw: (736, 33)
+2025-12-29 11:59:04,819 | INFO | Music cleaned: 1000 rows, 27 cols
+2025-12-29 11:59:04,819 | INFO | Range check Age: allowed [0,120] | NaNs 1 -> 1
+2025-12-29 11:59:04,819 | INFO | Range check Hours per day: allowed [0,24] | NaNs 0 -> 0
+2025-12-29 11:59:04,819 | INFO | Range check Anxiety: allowed [0,10] | NaNs 0 -> 0
+2025-12-29 11:59:04,819 | INFO | Range check Depression: allowed [0,10] | NaNs 0 -> 0
+2025-12-29 11:59:04,843 | INFO | Range check Insomnia: allowed [0,10] | NaNs 0 -> 0
+2025-12-29 11:59:04,845 | INFO | Range check OCD: allowed [0,10] | NaNs 0 -> 0
+2025-12-29 11:59:04,845 | INFO | Survey cleaned: 736 rows, 34 cols
+2025-12-29 11:59:04,845 | INFO | Music aggregated by genre: 10 genres
+2025-12-29 11:59:04,847 | INFO | Mental health aggregated by genre: 16 genres
+2025-12-29 11:59:04,850 | INFO | Saved: data\processed\music_features_by_genre.csv
+2025-12-29 11:59:04,850 | INFO | Saved: data\processed\mental_health_by_genre.csv
+2025-12-29 11:59:04,850 | INFO | Transform step finished successfully

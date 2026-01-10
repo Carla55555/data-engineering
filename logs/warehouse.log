@@ -1,0 +1,10 @@
+2025-12-29 11:59:05,622 | INFO | Logging initialized for warehouse step
+2025-12-29 11:59:05,622 | INFO | Starting warehouse load (SQLite)...
+2025-12-29 11:59:05,622 | INFO | Loaded processed tables: music=(10, 27), mental=(16, 7)
+2025-12-29 11:59:05,660 | INFO | Schema created / validated
+2025-12-29 11:59:05,666 | INFO | Upserted genres into dim_genre: 19 candidates
+2025-12-29 11:59:05,666 | INFO | dim_genre size: 19
+2025-12-29 11:59:05,666 | INFO | Cleared fact tables (fact_music_features, fact_mental_health)
+2025-12-29 11:59:05,666 | INFO | Loaded music facts: 260 rows
+2025-12-29 11:59:05,674 | INFO | Loaded mental health facts: 96 rows
+2025-12-29 11:59:05,674 | INFO | Warehouse load finished successfully, DB at: data\warehouse\music_dw.sqlite
