@@ -283,3 +283,4 @@ So, even though we use public data, it is good to consider the privacy of certai
 
 ## Conclusion
 This project has developed a complete Data Engineering pipeline, covering the entire data lifecycle from ingestion to serving (data warehouse) and final data visualization. Through cleaning, transformation, and storage processes, the information has been structured in a way that allows for efficient analysis and visualization. Furthermore, scalability, cost, privacy, and the use of artificial intelligence have been considered to provide a potential solution for various growth scenarios.
+
